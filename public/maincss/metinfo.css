@@ -1,0 +1,996 @@
+body {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	font-size: 100%;
+}
+h2 {
+	font-size: 100%;
+}
+h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 100%;
+}
+h5 {
+	font-size: 100%;
+}
+h6 {
+	font-size: 100%;
+}
+img {
+	border: 0px currentColor;
+}
+button {
+	font-size: 100%;
+}
+input {
+	font-size: 100%;
+}
+select {
+	font-size: 100%;
+}
+textarea {
+	font-size: 100%;
+}
+ul {
+	padding-left: 40px;
+}
+ol {
+	padding-left: 40px;
+}
+html {
+	background: rgb(244, 244, 244); font: 12px/1.8 "Microsoft YaHei", Tahoma, Verdana, "Simsun"; color: rgb(102, 102, 102); font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: none;
+}
+body {
+	background: rgb(244, 244, 244); font: 12px/1.8 "Microsoft YaHei", Tahoma, Verdana, "Simsun"; color: rgb(102, 102, 102); font-size-adjust: none; font-stretch: normal; -webkit-text-size-adjust: none;
+}
+a {
+	color: rgb(52, 52, 52); text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.inner {
+	margin: 0px auto; width: 1000px; position: relative;
+}
+.list-none {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.editor {
+	line-height: 2;
+}
+.editor ul {
+	margin: 0px; padding: 0px 0px 0px 25px;
+}
+.editor ol {
+	margin: 0px; padding: 0px 0px 0px 25px;
+}
+.editor a {
+	color: rgb(28, 87, 196); text-decoration: underline;
+}
+.button {
+	font: 14px/100% Arial, Helvetica, sans-serif; margin: 0px 2px; padding: 0.5em 2em 0.55em; border-radius: 0.5em; text-align: center; text-decoration: none; vertical-align: baseline; display: inline-block; cursor: pointer; -ms-zoom: 1; font-size-adjust: none; font-stretch: normal; box-shadow: 0px 1px 2px rgba(0,0,0,0.2); text-shadow: 0px 1px 1px rgba(0,0,0,0.3); -webkit-border-radius: .5em; -moz-border-radius: .5em; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+.button:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.button:active {
+	top: 1px; position: relative;
+}
+.orange {
+	background: rgb(247, 141, 29); border: 1px solid rgb(218, 124, 12); color: rgb(254, 244, 233);
+}
+.orange:hover {
+	background: rgb(244, 124, 32);
+}
+.orange:active {
+	color: rgb(252, 211, 165);
+}
+input.input-text {
+	background: url("../dt-10.gif") repeat-x left top rgb(255, 255, 255); padding: 4px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); font-size: 15px; text-shadow: 0px 1px 0px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out;
+}
+input.input-file {
+	background: url("../dt-10.gif") repeat-x left top rgb(255, 255, 255); padding: 4px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); font-size: 15px; text-shadow: 0px 1px 0px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out;
+}
+input.code {
+	background: url("../dt-10.gif") repeat-x left top rgb(255, 255, 255); padding: 4px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); font-size: 15px; text-shadow: 0px 1px 0px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out;
+}
+textarea {
+	background: url("../dt-10.gif") repeat-x left top rgb(255, 255, 255); padding: 4px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); font-size: 15px; text-shadow: 0px 1px 0px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out;
+}
+input.input-text:focus {
+	border: 1px solid rgb(250, 250, 250); box-shadow: 0px 0px 5px #007eff; -webkit-box-shadow: 0px 0px 6px #007eff; -moz-box-shadow: 0px 0px 5px #007eff;
+}
+input.input-file:focus {
+	border: 1px solid rgb(250, 250, 250); box-shadow: 0px 0px 5px #007eff; -webkit-box-shadow: 0px 0px 6px #007eff; -moz-box-shadow: 0px 0px 5px #007eff;
+}
+input.code:focus {
+	border: 1px solid rgb(250, 250, 250); box-shadow: 0px 0px 5px #007eff; -webkit-box-shadow: 0px 0px 6px #007eff; -moz-box-shadow: 0px 0px 5px #007eff;
+}
+textarea:focus {
+	border: 1px solid rgb(250, 250, 250); box-shadow: 0px 0px 5px #007eff; -webkit-box-shadow: 0px 0px 6px #007eff; -moz-box-shadow: 0px 0px 5px #007eff;
+}
+td.text {
+	padding: 6px 5px 6px 0px; width: 20%; text-align: right; font-size: 14px; font-weight: bold;
+}
+td.input {
+	padding: 6px 8px;
+}
+td.input input {
+	margin-right: 8px;
+}
+td.input .info {
+	color: rgb(255, 0, 0); padding-left: 15px;
+}
+td.input img {
+	bottom: 1px; position: relative;
+}
+td.submint {
+	padding: 10px;
+}
+header {
+	background: rgb(43, 43, 43); -ms-zoom: 1;
+}
+header .inner {
+	background: rgb(43, 43, 43); height: 80px; overflow: hidden;
+}
+.logo {
+	left: 0px; top: 0px; position: absolute;
+}
+.otr-nav {
+	top: 0px; text-align: right; right: 0px; overflow: hidden; margin-top: 8px; position: absolute;
+}
+.otr-nav .top-nav {
+	height: 20px; color: rgb(153, 153, 153); line-height: 20px; overflow: hidden; padding-bottom: 10px; font-size: 11px;
+}
+.otr-nav .top-nav a {
+	color: rgb(153, 153, 153); font-size: 12px;
+}
+.otr-nav .top-nav a:hover {
+	color: rgb(255, 255, 255);
+}
+.otr-nav .top-nav span {
+	padding: 0px 6px;
+}
+nav {
+	overflow: hidden; margin-top: 0px; float: right; -ms-zoom: 1;
+}
+nav ul li {
+	text-align: center; overflow: hidden; float: left;
+}
+nav ul li a {
+	padding: 0px 2px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 16px; float: left;
+}
+nav ul li.line {
+	width: 25px; height: 27px; overflow: hidden;
+}
+nav ul li.hover {
+	background: url("../ho.gif") no-repeat bottom;
+}
+nav ul li.navdown {
+	background: url("../ho.gif") no-repeat bottom;
+}
+nav ul li.hover a:hover {
+	color: rgb(255, 255, 255);
+}
+nav ul li.navdown a:hover {
+	color: rgb(255, 255, 255);
+}
+.met_flash {
+	overflow: hidden; font-size: 0px;
+}
+.met_flash .flash6 {
+	margin-bottom: 0px;
+}
+.met_flash ul {
+	margin: 0px; padding: 0px;
+}
+.Zbannar {
+	width: 100%; overflow: hidden;
+}
+.Zbannar #mPics li {
+	height: 453px;
+}
+.Zbannar .a1 #anim {
+	
+}
+.Zbannar .a2 #anim {
+	background-position: 0px -453px;
+}
+.Zbannar .a3 #anim {
+	background-position: 0px -906px;
+}
+.Zbannar .a4 #anim {
+	
+}
+.Zbannar .a1 #btnsWrap {
+	background-position: 0px -127px;
+}
+.Zbannar .a2 #btnsWrap {
+	background-position: 0px -254px;
+}
+.Zbannar .a3 #btnsWrap {
+	background-position: 0px -381px;
+}
+.Zbannar .a4 #btnsWrap {
+	
+}
+.Zbannar li.libegin {
+	background: url("../img/flash_bg.jpg") no-repeat 50% 50%;
+}
+.Zbannar .cc {
+	background-position: -589px -404px;
+}
+.Zbannar .cnow {
+	background-position: -589px -430px;
+}
+.Zbannar #anim {
+	height: 453px; background-image: url("../img/flash_bg.jpg"); background-repeat: repeat-x;
+}
+.Zbannar #marquee {
+	margin: 0px auto; width: 1000px; position: relative;
+}
+.Zbannar #mPics {
+	height: 453px; overflow: hidden; position: relative;
+}
+.Zbannar #mPics a {
+	width: 100%; height: 100%; display: block;
+}
+.Zbannar #circle {
+	margin: -28px auto 0px; width: 960px; text-align: center; overflow: hidden; position: relative;
+}
+.Zbannar #circle li {
+	width: 30px; display: inline-block; -ms-zoom: 1;
+}
+.Zbannar #circle li a {
+	width: 11px; height: 11px; text-align: left; text-indent: -9999px; overflow: hidden; display: block;
+}
+.Zbannar #circle li a:hover {
+	background-position: -589px -430px;
+}
+.Zbannar #liB {
+	background-position: 50% 0px; width: 100%; height: 100%; position: absolute; background-repeat: no-repeat;
+}
+.Zbannar #liG {
+	background-position: 50% 0px; width: 100%; height: 100%; position: absolute; background-repeat: no-repeat;
+}
+.Zbannar #liY {
+	background-position: 50% 0px; width: 100%; height: 100%; position: absolute; background-repeat: no-repeat;
+}
+.Zbannar #liX {
+	background-position: 50% 0px; width: 100%; height: 100%; position: absolute; background-repeat: no-repeat;
+}
+.Zbannar #circle li a {
+	background-image: url("../img/sprites-high3.png"); background-repeat: no-repeat;
+}
+.Zbannar #circle li a:hover {
+	background-image: url("../img/sprites-high3.png"); background-repeat: no-repeat;
+}
+.Zbannar #nWin .nCon a {
+	background-image: url("../img/sprites-high3.png"); background-repeat: no-repeat;
+}
+.indx-pro {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; background-color: rgb(249, 249, 249);
+}
+.indx-pro .inner {
+	padding-top: 10px; padding-bottom: 25px;
+}
+.indx-pro h3.title {
+	background: url("../newskin.jpg") no-repeat left; height: 21px; line-height: 21px; overflow: hidden; padding-left: 10px; font-size: 16px; font-weight: normal; margin-bottom: 15px;
+}
+.doly-abo h3.title {
+	background: url("../newskin.jpg") no-repeat left; height: 21px; line-height: 21px; overflow: hidden; padding-left: 10px; font-size: 16px; font-weight: normal; margin-bottom: 15px;
+}
+.indx-pro h3.title span {
+	color: rgb(0, 0, 0);
+}
+.doly-abo h3.title span {
+	color: rgb(52, 52, 52);
+}
+.doly-abo h3.title .More {
+	color: rgb(102, 102, 102); font-size: 12px; float: right;
+}
+.indx-pro .profld {
+	overflow: hidden; position: relative;
+}
+.indx-pro .profld dl {
+	list-style: none; width: 303px; overflow: hidden; padding-top: 20px; padding-right: 20px; float: left; -ms-zoom: 1;
+}
+.indx-pro .profld dl dt {
+	padding-top: 8px; float: left;
+}
+.indx-pro .profld dl dd {
+	float: right;
+}
+.indx-pro .profld dl dd div.mp {
+	margin-top: 10px; margin-left: 15px;
+}
+.indx-pro .profld dl dd h2 a {
+	font-size: 18px;
+}
+.indx-pro .profld dl dd h3 {
+	line-height: 1.5;
+}
+.indx-pro .profld dl dd h3 a {
+	color: rgb(115, 121, 116);
+}
+.indx-pro .profld dl dd p a {
+	color: rgb(102, 102, 102);
+}
+#trigger {
+	display: none;
+}
+.indx-pro a.prev {
+	background: url("../arrow.png") no-repeat left top; top: 33px; width: 39px; height: 33px; overflow: hidden; float: left; position: relative; cursor: pointer;
+}
+.indx-pro a.next {
+	background: url("../arrow.png") no-repeat left bottom; top: 33px; width: 39px; height: 33px; overflow: hidden; float: right; position: relative; cursor: pointer;
+}
+.doly-abo {
+	background: url("../listotpline.png") repeat-x left top rgb(237, 237, 237);
+}
+.doly-abo .inner {
+	padding: 25px 0px; border-bottom-color: rgb(217, 217, 217); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.doly-abo .Newxx {
+	width: 320px; padding-right: 20px;
+}
+.doly-abo .Aboutz {
+	padding: 0px; width: 320px;
+}
+.doly-abo .Newxx li {
+	height: 30px; line-height: 30px; overflow: hidden; -ms-zoom: 1;
+}
+.doly-abo .Newxx li h2 {
+	height: 20px; line-height: 20px; overflow: hidden; font-weight: normal;
+}
+.doly-abo .Newxx li h2 span {
+	height: 14px; float: right; display: block;
+}
+.doly-abo .Newxx li h2 span i {
+	height: 14px; color: rgb(153, 153, 153); font-style: normal; display: block;
+}
+.doly-abo .Newxx li h2 a {
+	padding-left: 5px;
+}
+.cotac-lk {
+	background: rgb(237, 237, 237);
+}
+.cotac-lk .inner {
+	padding: 15px 0px; border-top-color: white; border-top-width: 1px; border-top-style: solid;
+}
+.cotac-lk .contact {
+	width: 490px; line-height: 1.5; overflow: hidden;
+}
+.cotac-lk .index-Link {
+	width: 980px; overflow: hidden;
+}
+.cotac-lk .index-Link h3 {
+	height: 30px; line-height: 30px; padding-right: 5px; font-weight: normal; float: left;
+}
+.cotac-lk .index-Link ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.cotac-lk .index-Link .linklist {
+	float: left;
+}
+.cotac-lk .index-Link .imglk {
+	margin-bottom: 3px;
+}
+.cotac-lk .index-Link .imglk li {
+	list-style: none; padding-right: 5px; display: inline;
+}
+.cotac-lk .index-Link .imglk img {
+	width: 88px; height: 31px;
+}
+.cotac-lk .index-Link .textlk {
+	-ms-zoom: 1;
+}
+.cotac-lk .index-Link .textlk li {
+	list-style: none; height: 25px; line-height: 25px; overflow: hidden; margin-right: 10px; float: left;
+}
+.cotac-lk .index-Link .textlk li a {
+	color: rgb(119, 119, 119);
+}
+footer {
+	background: rgb(43, 43, 43); -ms-zoom: 1;
+}
+footer .inner {
+	background: rgb(43, 43, 43); padding-top: 22px; padding-bottom: 12px; border-top-color: rgb(62, 62, 62); border-top-width: 1px; border-top-style: solid; position: static;
+}
+.foot-nav {
+	width: 565px; overflow: hidden; float: left;
+}
+.foot-nav a {
+	color: rgb(153, 153, 153);
+}
+.foot-nav a:hover {
+	color: rgb(255, 255, 255);
+}
+.foot-text {
+	width: 426px; text-align: right; color: rgb(153, 153, 153); overflow: hidden; float: right;
+}
+.foot-text a {
+	color: rgb(153, 153, 153);
+}
+.powered_by_metinfo {
+	font-size: 11px;
+}
+.powered_by_metinfo a:hover {
+	color: rgb(255, 255, 255);
+}
+.sidebar {
+	padding-top: 15px; padding-bottom: 15px;
+}
+.sidebar .sb_nav {
+	background: rgb(255, 255, 255); border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(207, 209, 214) rgb(207, 209, 214) currentColor; width: 200px; float: left;
+}
+.sidebar .sb_nav h3.title {
+	background: rgb(46, 49, 43); padding: 0px 15px; height: 45px; text-align: center; color: rgb(255, 255, 255); line-height: 45px; font-size: 16px; font-weight: normal; border-bottom-color: rgb(207, 209, 214); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.sidebar .sb_nav .contact {
+	padding: 10px 20px; border-bottom-color: rgb(207, 209, 214); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#sidebar dl dt {
+	background: url("../dt-1.png") no-repeat 13px 18px; height: 45px; line-height: 45px; overflow: hidden; padding-right: 20px; padding-left: 30px; border-bottom-color: rgb(207, 209, 214); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#sidebar dl dt a {
+	color: rgb(102, 102, 102); font-size: 14px;
+}
+#sidebar dl dd {
+	border-bottom-color: rgb(207, 209, 214); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#sidebar dl dd h4 {
+	height: 40px; line-height: 40px; overflow: hidden; padding-left: 28px; font-weight: normal;
+}
+#sidebar dl dd h4 a {
+	color: rgb(32, 153, 207);
+}
+#sidebar dl dd h4 a:hover {
+	color: rgb(102, 102, 102);
+}
+#sidebar dl .openz {
+	background-position: 14px -38px; background-color: rgb(241, 241, 241);
+}
+#sidebar dl dt.on {
+	background-position: 14px -38px; background-color: rgb(241, 241, 241);
+}
+#sidebar dl dt.launched {
+	background-position: 14px -38px;
+}
+#sidebar dl dt.launchedshow {
+	background-position: 13px 18px;
+}
+#sidebar dl .dthover a {
+	
+}
+#sidebar dl .openz a {
+	
+}
+#sidebar dl dt.on a {
+	
+}
+#sidebar dl h4.on a {
+	
+}
+.sidebar .sb_box {
+	background: rgb(255, 255, 255); width: 780px; overflow: hidden; float: right;
+}
+.sidebar .sb_box h3.title {
+	background: rgb(244, 244, 244); height: 45px; line-height: 45px; border-bottom-color: rgb(207, 209, 214); border-bottom-width: 2px; border-bottom-style: solid; position: relative;
+}
+.sidebar .sb_box h3.title span {
+	padding: 0px; left: 0px; top: -1px; color: rgb(0, 0, 0); font-size: 22px; font-weight: normal; position: absolute;
+}
+.sidebar .sb_box h3.title div.position {
+	background: url("../home.gif") no-repeat left 13px; top: 3px; right: 15px; padding-left: 24px; font-size: 14px; font-weight: normal; float: right; position: relative;
+}
+.sidebar .sb_box h3.title div.position a {
+	color: rgb(102, 102, 102);
+}
+.sidebar .sb_box h3.title div.position a.now_navx {
+	color: rgb(255, 119, 0);
+}
+.met_hits {
+	padding: 0px; height: 35px; text-align: left; color: rgb(102, 102, 102); line-height: 35px; margin-bottom: 10px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.met_hits a {
+	color: rgb(102, 102, 102);
+}
+.met_hits .metjiathis {
+	top: 8px; right: 0px; position: absolute;
+}
+.met_page {
+	text-align: center;
+}
+.met_page a {
+	color: rgb(28, 87, 196); text-decoration: underline; margin-right: 50px;
+}
+.met_annex {
+	color: rgb(255, 0, 0); text-decoration: underline;
+}
+.met_annex:hover {
+	color: rgb(255, 0, 0); text-decoration: underline;
+}
+#flip {
+	margin-bottom: 15px;
+}
+#showtext {
+	padding: 30px; line-height: 2;
+}
+#newslist {
+	padding: 30px;
+}
+#newslist li {
+	background: url("../dt-1.gif") no-repeat left 17px; margin: 5px 0px 15px; padding: 6px 10px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#newslist li a {
+	font-size: 16px; margin-right: 5px;
+}
+#newslist li span {
+	color: rgb(170, 170, 170); float: right;
+}
+#newslist li p {
+	color: rgb(170, 170, 170);
+}
+#shownews {
+	padding: 30px;
+}
+#shownews .editor {
+	padding: 0px 10px; color: rgb(68, 68, 68); line-height: 3; font-size: 14px;
+}
+#shownews h1 {
+	margin: 10px 0px; padding: 5px 0px; text-align: center; color: rgb(0, 0, 0); font-size: 26px; font-weight: normal;
+}
+#productlist {
+	padding: 20px;
+}
+#productlist li {
+	text-align: center; float: left; display: inline;
+}
+#productlist li a.img {
+	text-align: center; font-size: 0px; display: block;
+}
+#productlist li a.img img {
+	margin: auto; padding: 5px; border: 1px solid rgb(229, 229, 229);
+}
+#productlist li h3 {
+	padding: 5px 0px 10px; line-height: 1.5; font-weight: normal;
+}
+#showproduct {
+	padding: 30px;
+}
+#showproduct h1.title {
+	padding: 5px 0px; color: rgb(0, 0, 0); font-size: 26px; font-weight: normal; margin-bottom: 5px;
+}
+#showproduct .pshow dt {
+	float: left;
+}
+#showproduct .pshow dd {
+	float: left;
+}
+#showproduct .pshow dd ul {
+	margin-left: 15px;
+}
+#showproduct .pshow dd li {
+	margin: 5px 0px; padding: 5px; clear: both; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#showproduct .pshow dd li span {
+	width: 70px; color: rgb(153, 153, 153); float: left;
+}
+#showproduct .ctitle {
+	background: url("../dt-7.gif") no-repeat left; margin: 15px 0px 10px; padding: 5px 20px; font-size: 14px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#showproduct .editor {
+	padding: 0px 10px; color: rgb(68, 68, 68); line-height: 2; font-size: 14px;
+}
+#downloadlist {
+	padding: 30px;
+}
+#downloadlist .metlist {
+	margin-bottom: 20px;
+}
+#downloadlist .metlist dt {
+	background: url("../dt-9.gif") no-repeat 5px 11px; padding: 3px 5px 3px 20px; font-size: 14px; font-weight: bold; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#downloadlist .metlist dd {
+	background: rgb(248, 248, 248); padding: 5px 8px; color: rgb(153, 153, 153);
+}
+#downloadlist .metlist dd b {
+	font-weight: normal;
+}
+#downloadlist .metlist dd div {
+	float: right;
+}
+#downloadlist .metlist dd span {
+	padding-right: 20px;
+}
+#downloadlist .metlist dd a {
+	color: rgb(28, 87, 196); text-decoration: underline;
+}
+#downloadlist .metlist dd a.down {
+	color: rgb(250, 26, 26); text-decoration: underline;
+}
+#showdownload {
+	padding: 30px;
+}
+#showdownload h1.title {
+	padding: 5px 0px; font-size: 18px; margin-bottom: 5px;
+}
+#showdownload .paralist {
+	background: rgb(246, 246, 246); padding: 5px 10px;
+}
+#showdownload .paralist li {
+	margin: 5px 0px; padding: 3px 5px 3px 0px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#showdownload .paralist li a {
+	color: rgb(255, 0, 0); text-decoration: underline;
+}
+#showdownload .paralist li span {
+	padding: 0px 10px; text-align: left; margin-right: 5px; float: left;
+}
+#showdownload .editor {
+	padding: 0px 10px; color: rgb(68, 68, 68); line-height: 2; font-size: 14px; margin-top: 15px;
+}
+#showdownload .ctitle {
+	background: url("../dt-7.gif") no-repeat left; margin: 15px 0px 10px; padding: 5px 20px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#imglist {
+	padding: 30px 20px 10px; font-size: 17px; font-weight: bolder;
+}
+#imglist li {
+	text-align: center; float: left; display: inline;
+}
+#imglist li a.img {
+	font-size: 0px; display: block;
+}
+#imglist li a.img img {
+	margin: auto; padding: 5px; border: 1px solid rgb(229, 229, 229);
+}
+#imglist li h3 {
+	padding: 5px 0px 10px; line-height: 1.5; font-weight: normal;
+}
+#showimg {
+	padding: 30px;
+}
+#showimg h1.title {
+	padding: 5px 0px; text-align: center; color: rgb(0, 0, 0); font-size: 26px; font-weight: normal;
+}
+#showimg .imgshow {
+	text-align: center;
+}
+#showimg .editor {
+	padding: 0px 10px; color: rgb(68, 68, 68); line-height: 2; font-size: 14px;
+}
+.imgparalist li {
+	background: url("../dt-0.gif") no-repeat 5px; padding: 3px 15px;
+}
+.imgparalist li span {
+	color: rgb(153, 153, 153); margin-right: 10px; float: left;
+}
+#showimg .ctitle {
+	background: url("../dt-7.gif") no-repeat left; margin: 10px 0px; padding: 5px 20px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#joblist {
+	padding: 30px;
+}
+#joblist dl {
+	padding: 0px 5px 15px; margin-bottom: 15px;
+}
+#joblist dt {
+	padding: 5px 10px; font-size: 16px; font-weight: bold; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#joblist dd {
+	padding: 0px 0px 5px;
+}
+#joblist dd .dtail {
+	padding: 5px 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted;
+}
+#joblist dd .dtail span {
+	margin-right: 20px;
+}
+#joblist dd .dtail a {
+	color: rgb(28, 87, 196);
+}
+#joblist dd .editor {
+	padding: 5px;
+}
+#joblist dd .mis {
+	padding: 5px 10px;
+}
+#joblist dd .mis span {
+	color: rgb(153, 153, 153); margin-right: 15px;
+}
+#showjob {
+	padding: 30px;
+}
+#showjob h1.title {
+	padding: 5px 0px; font-size: 18px; margin-bottom: 5px;
+}
+#showjob .paralist li {
+	background: url("../dt-0.gif") no-repeat 5px; padding: 3px 15px; width: 45%; float: left;
+}
+#showjob .paralist li span {
+	color: rgb(153, 153, 153); margin-right: 10px; float: left;
+}
+#showjob .ctitle {
+	background: url("../dt-7.gif") no-repeat left; margin: 10px 0px; padding: 5px 20px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#showjob .info_cv {
+	margin: 10px 0px; text-align: center; font-size: 12px;
+}
+#showjob .editor {
+	padding: 0px 10px; color: rgb(68, 68, 68); line-height: 2; font-size: 14px;
+}
+#cvlist {
+	padding: 15px;
+}
+#messagelist {
+	padding: 30px;
+}
+#messagelist .metlist {
+	padding: 5px; border: 6px solid rgb(222, 222, 222); margin-bottom: 10px;
+}
+#messagelist .metlist dt {
+	background: url("../message.gif") no-repeat left; padding: 4px 0px 4px 20px; margin-bottom: 5px; border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#messagelist .metlist dt span.name {
+	color: rgb(44, 113, 153);
+}
+#messagelist .metlist dt span.time {
+	color: rgb(153, 153, 153); padding-left: 8px;
+}
+#messagelist .metlist dt span.tt {
+	padding-right: 5px; float: right;
+}
+#messagelist .metlist dd.info span.tt {
+	clear: both; display: none;
+}
+#messagelist .metlist dd.info span.text {
+	padding: 8px 5px; line-height: 1.5; display: block;
+}
+#messagelist .metlist dd.reinfo span.tt {
+	background: url("../admin.gif") no-repeat left 3px; margin: 0px 0px 5px; padding: 2px 0px 2px 20px; color: rgb(44, 113, 153); border-bottom-color: rgb(222, 222, 222); border-bottom-width: 1px; border-bottom-style: dotted; display: block;
+}
+#messagelist .metlist dd.reinfo span.text {
+	padding: 8px 5px; line-height: 1.5; display: block;
+}
+#messagelist .ctitle {
+	background: url("../dt-7.gif") no-repeat left; margin: 10px 0px; padding: 5px 20px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#messagelist table {
+	margin: 0px auto;
+}
+#messagetable {
+	padding: 15px;
+}
+#messagetable table {
+	margin: 0px auto;
+}
+#feedback {
+	padding: 30px;
+}
+#feedback table {
+	margin: 0px auto;
+}
+#linklist {
+	padding: 15px 15px 25px;
+}
+#linklist .ctitle {
+	background: url("../dt-7.gif") no-repeat left; margin: 10px 0px; padding: 5px 20px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#linklist .inside {
+	padding: 15px 0px 0px;
+}
+#linklist .metlist .img li {
+	list-style: none; padding-right: 5px; display: inline;
+}
+#linklist .metlist .img img {
+	width: 88px; height: 31px;
+}
+#linklist .metlist .txt li {
+	list-style: none; width: 88px; height: 20px; line-height: 20px; overflow: hidden; margin-right: 5px; float: left;
+}
+#linksubmit {
+	padding: 15px;
+}
+#linksubmit table {
+	margin: 0px auto;
+}
+#memberbox {
+	padding: 15px;
+}
+ul.searchnavlist {
+	list-style: none; margin: 0px; padding: 20px; border-bottom-color: rgb(207, 209, 214); border-bottom-width: 1px; border-bottom-style: solid;
+}
+ul.searchnavlist .input-text {
+	width: 150px;
+}
+ul.searchnavlist li {
+	padding: 5px 0px;
+}
+#searchlist {
+	padding: 15px;
+}
+#searchlist li {
+	line-height: 1.5; padding-left: 10px; margin-bottom: 6px;
+}
+#searchlist ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#searchlist ul li {
+	padding: 3px 5px; margin-bottom: 5px;
+}
+#searchlist ul li img {
+	display: none;
+}
+#searchlist .search_title {
+	padding: 2px 0px; display: block;
+}
+#searchlist .search_title a {
+	color: rgb(17, 34, 204); font-size: 14px; text-decoration: underline;
+}
+#searchlist .search_title em {
+	color: rgb(204, 0, 0); font-style: normal; text-decoration: underline;
+}
+#searchlist .search_detail {
+	display: block;
+}
+#searchlist .search_detail a {
+	color: rgb(17, 34, 204); text-decoration: underline;
+}
+#searchlist .search_content em {
+	color: rgb(204, 0, 0); font-style: normal;
+}
+#searchlist .search_updatetime {
+	color: green; margin-top: 5px; display: block;
+}
+#searchlist a:hover {
+	text-decoration: underline;
+}
+#sitemaplist {
+	padding: 30px;
+}
+#sitemaplist ul li {
+	background: url("../dd.gif") no-repeat left; line-height: 1.5; padding-left: 8px;
+}
+#sitemaplist ul li span {
+	padding-right: 10px; float: left;
+}
+#sitemaplist .sitemapclass {
+	padding: 5px 0px;
+}
+#sitemaplist .sitemapclass1 {
+	height: 28px; line-height: 28px; margin-bottom: 5px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#sitemaplist .sitemapclass1 a {
+	background: rgb(238, 238, 238); padding: 5px 10px;
+}
+#sitemaplist .sitemapclass2 {
+	padding-top: 3px; padding-left: 15px;
+}
+#sitemaplist .sitemapclass2 h3 {
+	background: url("../dt-0.gif") no-repeat left; padding: 2px 8px;
+}
+#sitemaplist .sitemapclass2 h3 a {
+	color: rgb(68, 68, 68);
+}
+#sitemaplist .sitemapclass2 div {
+	padding-left: 2px;
+}
+#sitemaplist .sitemapclass2 h4 {
+	padding: 2px 6px; display: inline;
+}
+#sitemaplist .sitemapclass2 h4 a {
+	color: rgb(44, 113, 153); text-decoration: underline;
+}
+#slides {
+	margin: 0px auto; position: absolute; z-index: 100;
+}
+.slides_container {
+	margin: 0px auto; width: 1000px; overflow: hidden; display: none; position: relative;
+}
+.slides_container div.slide {
+	margin: 0px auto; width: 1000px; height: 453px; display: block;
+}
+slides_container div.slide a.img {
+	margin: 0px auto;
+}
+#slides .next {
+	left: -35px; top: 192px; width: 24px; height: 42px; display: block; position: absolute; z-index: 101;
+}
+#slides .prev {
+	left: -35px; top: 192px; width: 24px; height: 42px; display: block; position: absolute; z-index: 101;
+}
+#slides .next {
+	left: 1010px;
+}
+.pagination {
+	margin: -26px auto 0px; width: 100px;
+}
+.pagination li {
+	list-style: none; margin: 0px 1px; float: left;
+}
+.pagination li a {
+	width: 12px; height: 0px; overflow: hidden; padding-top: 12px; float: left; display: block; background-image: url("../img/pagination.png");
+}
+.pagination li.current a {
+	background-position: 0px -12px;
+}
+.home_product {
+	margin: 0px auto; width: 1000px; height: 315px; padding-bottom: 20px;
+}
+.home_product ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+.home_product li {
+	list-style: none; padding-right: 12px; margin-bottom: 8px; float: left;
+}
